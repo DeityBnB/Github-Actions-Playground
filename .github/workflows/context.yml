@@ -6,7 +6,7 @@ jobs:
   my-context:
     runs-on: ubuntu-latest
     steps:
-      -name: "My step"
+    - name: "My step"
       run: | 
         echo "Action! $MY_ACTION"
         echo "Actor! $MY_ACTOR"
